@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Coding-Projects/',
+  base: '/Portfolio_App/',
   plugins: [react()],
 });
