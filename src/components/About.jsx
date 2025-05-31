@@ -24,9 +24,9 @@ const About = () => {
             <img src={profile} alt="Profile Picture" />
             <p>Welcome to my page! My name is Preston and I'm a creative problem solver with a background in 3D art, full stack development, and self-taught software engineering. I’m drawn to the space where visuals, logic, and AI come together, whether it’s building sleek interfaces, writing clean code, or exploring how machine learning works under the surface. Over the years, I’ve balanced full-time work and study while teaching myself programming, graphics, and the math behind intelligent systems. The journey hasn’t been linear, but it’s made me adaptable, detail-focused, and committed to growth. Right now, I’m building tools that combine design and engineering, with long-term goals in SaaS, freelancing, and launching startups.</p>
         </div>
-        {/* <Headers headers="Softwares" /> */}
+        <div className='stack-header'><h1>Software Proficiency</h1></div>
         <div className="stack-container">
-          {/* <h1 id="stack-header">Software Proficiency</h1> */}
+          
           <div className="stack-icons">
             <Stack icon={htmlIcon} framework="HTML" />
             <Stack icon={css} framework="CSS" />
