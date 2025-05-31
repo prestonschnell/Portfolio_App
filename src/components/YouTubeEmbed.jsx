@@ -1,6 +1,7 @@
 import React from 'react';
+import './Projects.css'
 
-const YouTubeEmbed = ({ videoId, width = "1200px", height = "720px" }) => {
+const YouTubeEmbed = ({ videoId, width = "100%", height = "100%" }) => {
   return (
     <div className="youtube-container">
       <iframe

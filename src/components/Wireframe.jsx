@@ -7,7 +7,7 @@ const Wireframe = (props) => {
   return (
     <div className='projects-container'>
         <div className="image-container">
-            <video width="1200" height="720" controls>
+            <video width="100%" height="100%" controls>
                 <source src={cube} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>

@@ -7,6 +7,7 @@ const ImageScroller = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const sliderStyles = {
+        width: '100vw',
         height: '100%',
         position: 'relative'
     }
@@ -33,14 +34,14 @@ const ImageScroller = ({slides}) => {
         cursor: 'pointer',
     };
 
-    const slideStyles = {
+    /* const slideStyles = {
     width: "1200px",
     height: "720px",
     borderRadius: "10px",
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundImage: `url(${slides[currentIndex].url})`,
-    };
+    }; */
 
     const goToPrevious = () => {
         const isFirstSlide = currentIndex === 0;
@@ -64,12 +65,11 @@ const ImageScroller = ({slides}) => {
     <div style={sliderStyles}>
         <div style={leftArrow} onClick={goToPrevious}><img className="scroller-controls" src={previous} alt="" /></div>
         <div style={rightArrow} onClick={goToNext}><img className="scroller-controls" src={next} alt="" /></div>
-        <div style={slideStyles}></div>
+        <div className="slide-container">
+            <img src={slides[currentIndex].url} alt="slide" className="slide-image" />
+        </div>
     </div>
     )
 }
 
 export default ImageScroller;
-
-
-/* */

@@ -12,7 +12,7 @@ const Simon = (props) => {
             <button>Learn More</button>
         </div>
         <div className="image-container">
-            <video width="1200" height="720" controls>
+            <video width="100%" height="100%" controls>
                 <source src={simon} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
