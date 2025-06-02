@@ -5,37 +5,52 @@
     align-items: center;
     max-height: 100vh;
     height: 500px;
-    max-width: 100vw;
+    max-width: 80%;
     width: 100%;
     background-color: black;
     color: white;
     padding-top: 50px;
+    /* border: 2px solid white; */
+}
+
+.contact-background {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-container p {
-    font-size: 12pt;
+       font-size: clamp(1rem, 2.5vw, 1.25rem);
 }
 
 .form-container {
     max-height: 100vh;
-    max-width: 100vw;
+    max-width: 100%;
     height: 500px;
     width: 500px;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
 }
 
 .form-container button {
     max-height: 100vh;
-    max-width: 100vw;
+    max-width: 100%;
     width: 25%;
     margin: 20px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+
 }
 
 .form-container input {
     background-color: white;
     color: black;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+
 }
 
 .form-container form {
@@ -57,7 +72,7 @@
 
 .icons-container {
     width: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,9 +83,10 @@
 .back-container {
     max-height: 100vh;
     height: 200px;
-    max-width: 100vw;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    font-size: clamp(0.5rem, 2.5vw, 1rem);
 }

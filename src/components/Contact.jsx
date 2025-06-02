@@ -6,6 +6,7 @@ import artstation from "../../public/artstation.png"
 
 const Contact = () => {
   return (
+    <div className="contact-background">
     <div className='contact-container'>
       <h1>Contact me!</h1>
       <p>Have a question or want to work together? Leave your details and I'll get back to you as soon as possible!</p>
@@ -36,6 +37,7 @@ const Contact = () => {
         })
       }}>Back to Top</button>
       </div>
+    </div>
     </div>
   )
 }

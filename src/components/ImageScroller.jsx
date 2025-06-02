@@ -7,7 +7,7 @@ const ImageScroller = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const sliderStyles = {
-        width: '100vw',
+        width: '100%',
         height: '100%',
         position: 'relative'
     }
@@ -21,6 +21,11 @@ const ImageScroller = ({slides}) => {
         color: 'white',
         zIndex: '1',
         cursor: 'pointer',
+        width: "10%",
+        height: "10%",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
     };
 
     const rightArrow = {
@@ -32,6 +37,11 @@ const ImageScroller = ({slides}) => {
         color: 'white',
         zIndex: '1',
         cursor: 'pointer',
+         width: "10%",
+        height: "10%",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
     };
 
     /* const slideStyles = {
