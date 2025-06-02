@@ -8,7 +8,7 @@ const Nav = () => {
       <div className="logo">
         <img src={logo} alt="" />
       </div>
-      <div>
+      <div className='buttons-container'>
         <ul className="buttons">
             <li><button onClick={()=> {
               window.scroll({

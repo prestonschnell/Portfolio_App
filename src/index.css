@@ -13,7 +13,7 @@
   margin: 0;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: white;
   /* background: linear-gradient(90deg,rgb(59, 78, 86) 0%, rgb(123, 104, 230) 50%, rgb(84, 115, 128) 100%); */
   /* background-color: #213547; */
   background-size: contain;
@@ -51,24 +51,25 @@ button {
 }
 button:hover {
   border-color: green;
+  color: black;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: white;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: black;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #1a1a1a;
   }
-}
+} */
 
 @keyframes move {
     100% {
@@ -188,4 +189,8 @@ button:focus-visible {
     animation-delay: -46s;
     transform-origin: -21vw 12vh;
     box-shadow: -2vmin 0 0.9367461224343508vmin currentColor;
+}
+
+* {
+  box-sizing: border-box;
 }

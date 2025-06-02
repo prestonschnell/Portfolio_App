@@ -22,7 +22,7 @@ const ImageScroller = ({slides}) => {
         zIndex: '1',
         cursor: 'pointer',
         width: "10%",
-        height: "10%",
+        height: "15%",
         display: "flex",
         justifyContent: "center",
         alignItems: "center"
@@ -38,7 +38,7 @@ const ImageScroller = ({slides}) => {
         zIndex: '1',
         cursor: 'pointer',
          width: "10%",
-        height: "10%",
+        height: "15%",
         display: "flex",
         justifyContent: "center",
         alignItems: "center"
