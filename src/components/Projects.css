@@ -16,6 +16,10 @@ margin-top: 100px;
 margin-bottom: 200px;
 }
 
+.project-info button {
+     font-size: clamp(1rem, 2.5vw, 2rem);
+}
+
 @media (max-width: 600px) {
   .projects-container {
     flex-direction: column;
@@ -26,7 +30,7 @@ margin-bottom: 200px;
   .project-info { 
     flex: 1 1 100%;
     width: 100%;
-    max-width: 90vw;
+    max-width: 100%;
     padding: 1rem;
   }
 s
@@ -82,7 +86,7 @@ border-radius: 20px;
 
 .project-info {
 min-width:400px;
-max-width: 600px;
+max-width: 700px;
 width: 60%;
 max-height: fit-content;
 background-color: black;
