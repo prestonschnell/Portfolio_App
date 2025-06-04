@@ -28,10 +28,16 @@
 .headers-box {
     max-height: 100vh;
     max-width: 100%;
-    width: 500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* border-bottom: 2px solid white; */
     margin: 5%;
+}
+
+@media (max-width: 391px) {
+    .headers-box {
+        max-width: 100%;
+    }
 }

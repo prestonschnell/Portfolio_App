@@ -58,7 +58,7 @@ button {
   height: 100%;
 } */
 
-@media (max-width: 361px) {
+@media (max-width: 391px) {
   .nav-bar {
     height: 70px;
     box-shadow: 0px 3px #66b2b2;

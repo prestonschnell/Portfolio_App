@@ -21,7 +21,7 @@
      font-size: clamp(1rem, 2.5vw, 4rem);
 }
 
-@media (max-width: 361px) {
+@media (max-width: 391px) {
     #hero-header {
         max-width: 100%;
     }

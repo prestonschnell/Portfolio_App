@@ -132,7 +132,7 @@ height: 100%;
   /* border: 2px solid rgb(255, 20, 20); */
 }
 
-@media (max-width: 361px) {
+@media (max-width: 391px) {
   .projects-container {
     flex-direction: column;
     align-items: center;
@@ -140,13 +140,14 @@ height: 100%;
 
   .image-container { 
     flex: 1 1 100%;
-    width: 100%;
+    width: 85%;
     max-width: 100%;
     padding: 2rem;
+    border: 2px solid #66b2b2;
   }
 
   .project-info {
-  min-width: 100vw;
+  min-width: 85vw;
   max-width: 100%;
   width: 60%;
   max-height: fit-content;
