@@ -91,3 +91,13 @@
     margin-bottom: 50px;
     font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
+
+@media (max-width: 431px) {
+    .contact-container {
+        height: 100%;
+    }
+
+    .contact-background {
+        height: 67vh;
+    }
+}

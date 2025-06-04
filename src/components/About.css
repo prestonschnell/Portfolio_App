@@ -157,7 +157,7 @@ border: 5px solid #66b2b2;
     padding-top: 30px;
 }
   .stack-container {
-    height: 75vh;
+    height: 100vh;
     width: 90%;
     flex-direction: column;
     align-items: center;
@@ -187,7 +187,8 @@ border: 5px solid #66b2b2;
 
   .prop-container {
     font-size: 8px;
-    height: auto;
+    height: 100%;
+    width: 100%;
   }
 
   .prop-container img {
