@@ -4,7 +4,7 @@
     max-width: 100%;
     width: 100%;
     /* background-image: url(background2.jpg); */
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,11 +18,15 @@
 
 #hero-header {
     max-width: 50%;
-     font-size: clamp(1.25rem, 2.5vw, 4rem);
+     font-size: clamp(1rem, 2.5vw, 4rem);
 }
 
-@media (max-width: 390px) {
+@media (max-width: 361px) {
     #hero-header {
+        max-width: 100%;
+    }
+
+    .hero-container {
         max-width: 100%;
     }
 }

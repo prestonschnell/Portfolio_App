@@ -9,7 +9,7 @@ const Simon = (props) => {
         <div className="project-info">
             <h1>{props.name}</h1>
             <p>{props.description}</p>
-            <button>Learn More</button>
+            <button><a href="https://github.com/prestonschnell/Coding-Projects/tree/main/Simon%20Says" target='_blank'>Learn More</a></button>
         </div>
         <div className="image-container">
             <video width="100%" height="100%" controls>

@@ -15,7 +15,7 @@ const Wireframe = (props) => {
         <div className="project-info">
             <h1>{props.name}</h1>
             <p>{props.description}</p>
-            <button>Learn More</button>
+            <button><a href="https://github.com/prestonschnell/Coding-Projects/tree/main/Wireframe_cube" target='_blank'>Learn More</a></button>
         </div>
     </div>
   )
