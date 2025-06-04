@@ -8,9 +8,9 @@ gap: 12rem;
 justify-content: space-evenly;
 align-items: center;
 /* border: 2px solid white; */
-animation: appear linear;
+/* animation: appear linear;
 animation-timeline: view();
-animation-range: entry 80% cover 20%;
+animation-range: entry 80% cover 20%; */
 /* margin-top: 5%; */
 }
 
@@ -46,7 +46,21 @@ background-color: rgba(0, 0, 0, 0.5);
 color: white;
 opacity: 85%;
 box-shadow: 10px 10px #66b2b2;
+animation: appear linear;
+animation-timeline: view();
+animation-range: entry 0% cover 35%;
 }
+
+/* @keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+} */
 
 .about-section h1 {
     /* border-bottom: 2px solid #66b2b2; */
@@ -82,7 +96,13 @@ color: white;
 border: 5px solid #66b2b2;
 /* box-shadow: 5px 5px #66b2b2; */
 /* margin-bottom: 500px; */
+animation: appear linear;
+animation-timeline: view();
+animation-range: entry 0% cover 35%;
 }
+
+
+
 
 
 .stack-header {
@@ -139,6 +159,11 @@ border: 5px solid #66b2b2;
 
 
 @media (max-width: 431px) {
+  .about-container {
+    animation-range: entry 80% cover 40%;
+  }
+
+
     .stack-icons {
     height: 100%;
     max-height: 100vh;
@@ -163,6 +188,7 @@ border: 5px solid #66b2b2;
     align-items: center;
     /* font-size: clamp(1rem, 2.5rem, 2rem); */
     border: 2px solid #66b2b2;
+    border-radius: 50px;
   }
 
   .stack-container img {
@@ -177,10 +203,14 @@ border: 5px solid #66b2b2;
     min-width: 50vw;
     max-width: 85%;
     box-shadow: none;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+    text-align: center;
   }
 
  .about-section img {
-    min-width: 50vw;
+    min-width: 42vw;
     max-width: 50%;
     max-height: 100%;
 }
@@ -199,8 +229,21 @@ border: 5px solid #66b2b2;
   .stack-header {
     height: 50px;
     width: 100%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
 }
 
   
 }
 
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}

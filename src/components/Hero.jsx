@@ -1,19 +1,23 @@
-import React from 'react'
-import './hero.css'
-
+import React from 'react';
+import './hero.css';
 
 const Hero = () => {
+  const handleScroll = () => {
+    const isMobile = window.innerWidth <= 430; // or use 768 for tablets too
+    const topValue = isMobile ? 885 : 1325;
+
+    window.scroll({
+      top: topValue,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className="hero-container">
-      <h1 id='hero-header'>Hi, I'm Preston. I'm a Multimedia Developer.</h1>
-      <button onClick={() => {
-        window.scroll({
-          top: 1325,
-          behavior: 'smooth'
-        })
-      }}>View my Work</button>
+      <h1 id="hero-header">Hi, I'm Preston. I'm a Multimedia Developer.</h1>
+      <button onClick={handleScroll}>View my Work</button>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
