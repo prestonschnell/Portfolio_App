@@ -138,7 +138,7 @@ border: 5px solid #66b2b2;
 
 
 
-@media (max-width: 391px) {
+@media (max-width: 431px) {
     .stack-icons {
     height: 100%;
     max-height: 100vh;
