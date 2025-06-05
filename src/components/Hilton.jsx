@@ -2,6 +2,7 @@ import React from 'react'
 import "./Projects.css"
 import ImageScroller from './ImageScroller';
 import hiltonSlides from './hiltonSlides';
+import DecryptedText from './DecryptedText';
 
 const Hilton = (props) => {
   return (

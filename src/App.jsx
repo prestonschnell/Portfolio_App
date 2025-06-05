@@ -18,12 +18,15 @@ import Simon from './components/Simon'
 import Wireframe from './components/Wireframe'
 import ToDo from './components/toDo'
 import Background from './components/Background'
+import ClickSpark from './components/ClickSpark'
+
 
 
 const App = () => {
   return (
     <div>
       <Background/>
+      <ClickSpark sparkColor='#fff' sparkSize={10} sparkRadius={15} sparkCount={8} duration={400}>
       <Hero/>
       <Nav/>
       <Headers headers="About Me"/>
@@ -39,6 +42,7 @@ const App = () => {
       <Wireframe name="OpenGL Wireframe Cube" description="This project demonstrates a rotating wireframe cube rendered using Python with OpenGL and PyGame, built entirely from manually defined vertex and triangle data. By structuring the cube through raw geometry and rendering logic, I gained a deeper understanding of 3D transformations, projection matrices, and low-level graphics programming. The result reflects foundational skills in computer graphics and real-time rendering pipelines."/>
       <ToDo name="To-Do List App" description="This to-do list app offers a clean, functional interface for adding, checking off, and deleting tasks, with persistent storage handled through localStorage. The project reflects practical knowledge of DOM manipulation, event handling, and client-side data persistence. It’s a simple yet effective example of building interactive web applications with vanilla JavaScript."/>
       <Contact />
+      </ClickSpark>
     </div>
   )
 }
