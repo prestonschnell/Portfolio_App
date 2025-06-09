@@ -7,6 +7,7 @@ const secSlides = [
     {url: "https://cdnb.artstation.com/p/assets/images/images/087/529/203/large/preston-schnell-hof-05.jpg?1746024068"},
     {url: "https://cdna.artstation.com/p/assets/images/images/087/529/196/large/preston-schnell-hof-04.jpg?1746024062"},
     {url: "https://cdnb.artstation.com/p/assets/images/images/087/529/191/large/preston-schnell-hof-03.jpg?1746024058"},
+    {url: "https://cdnb.artstation.com/p/assets/images/images/088/892/937/large/preston-schnell-sec.jpg?1749485960"},
 ];
 
 
