@@ -5,6 +5,10 @@ import github from "../../public/github.png"
 import artstation from "../../public/artstation.png"
 
 const Contact = () => {
+function handleSubmit(e) {
+  e.preventDefault();
+}
+
   return (
     <div className="contact-background">
     <div className='contact-container'>
@@ -18,7 +22,7 @@ const Contact = () => {
           <input type="text" name="email" id="" />
           <label htmlFor="name">Message</label>    
           <input type="text" name="message" id="" />
-          <button type='Submit'>Submit</button>
+          <button onClick={(e) => handleSubmit(e)} type='Submit'>Submit</button>
         </form>
       </div>
 
