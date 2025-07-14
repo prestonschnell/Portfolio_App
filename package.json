@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://prestonschnell.github.io/Portfolio_App",
+  "homepage": "https://prestonschnell.github.io/Portfolio-App",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

@@ -1,6 +1,6 @@
 # Welcome to my Portfolio React App!
 
-Active Link: https://prestonschnell.github.io/Portfolio_App/
+Active Link: https://prestonschnell.github.io/Portfolio-App/
 
 ## Demo
 - **[Demo](./src/assets/Portfolio_V2-vid.gif)**
